@@ -10,6 +10,105 @@
     <link rel="stylesheet" "text/css" href="index.css">
   </head>
   <body>
-    
+    <div class="header" id="myheader">
+    <h2>A header that remains at the top of the screen</h2>
+    </div>
+    <img src="./images/image.jpg" alt="basketball image">
+    <div class="content">
+    <p>This is text so the page can scroll. This is text so the page can scroll.
+    This is text so the page can scroll. This is text so the page can scroll.
+    This is text so the page can scroll. This is text so the page can scroll.
+    This is text so the page can scroll. This is text so the page can scroll.
+    This is text so the page can scroll. This is text so the page can scroll.</p>
+    <p>This is text so the page can scroll. This is text so the page can scroll.
+    This is text so the page can scroll. This is text so the page can scroll.
+    This is text so the page can scroll. This is text so the page can scroll.
+    This is text so the page can scroll. This is text so the page can scroll.
+    This is text so the page can scroll. This is text so the page can scroll.</p>
+    <p>This is text so the page can scroll. This is text so the page can scroll.
+    This is text so the page can scroll. This is text so the page can scroll.
+    This is text so the page can scroll. This is text so the page can scroll.
+    This is text so the page can scroll. This is text so the page can scroll.
+    This is text so the page can scroll. This is text so the page can scroll.</p>
+    <p>This is text so the page can scroll. This is text so the page can scroll.
+    This is text so the page can scroll. This is text so the page can scroll.
+    This is text so the page can scroll. This is text so the page can scroll.
+    This is text so the page can scroll. This is text so the page can scroll.
+    This is text so the page can scroll. This is text so the page can scroll.</p>
+    <p>This is text so the page can scroll. This is text so the page can scroll.
+    This is text so the page can scroll. This is text so the page can scroll.
+    This is text so the page can scroll. This is text so the page can scroll.
+    This is text so the page can scroll. This is text so the page can scroll.
+    This is text so the page can scroll. This is text so the page can scroll.</p>
+    <p>This is text so the page can scroll. This is text so the page can scroll.
+    This is text so the page can scroll. This is text so the page can scroll.
+    This is text so the page can scroll. This is text so the page can scroll.
+    This is text so the page can scroll. This is text so the page can scroll.
+    This is text so the page can scroll. This is text so the page can scroll.</p>
+    <p>This is text so the page can scroll. This is text so the page can scroll.
+    This is text so the page can scroll. This is text so the page can scroll.
+    This is text so the page can scroll. This is text so the page can scroll.
+    This is text so the page can scroll. This is text so the page can scroll.
+    This is text so the page can scroll. This is text so the page can scroll.</p>
+    <p>This is text so the page can scroll. This is text so the page can scroll.
+    This is text so the page can scroll. This is text so the page can scroll.
+    This is text so the page can scroll. This is text so the page can scroll.
+    This is text so the page can scroll. This is text so the page can scroll.
+    This is text so the page can scroll. This is text so the page can scroll.</p>
+    <p>This is text so the page can scroll. This is text so the page can scroll.
+    This is text so the page can scroll. This is text so the page can scroll.
+    This is text so the page can scroll. This is text so the page can scroll.
+    This is text so the page can scroll. This is text so the page can scroll.
+    This is text so the page can scroll. This is text so the page can scroll.</p>
+    <p>This is text so the page can scroll. This is text so the page can scroll.
+    This is text so the page can scroll. This is text so the page can scroll.
+    This is text so the page can scroll. This is text so the page can scroll.
+    This is text so the page can scroll. This is text so the page can scroll.
+    This is text so the page can scroll. This is text so the page can scroll.</p>
+    <p>This is text so the page can scroll. This is text so the page can scroll.
+    This is text so the page can scroll. This is text so the page can scroll.
+    This is text so the page can scroll. This is text so the page can scroll.
+    This is text so the page can scroll. This is text so the page can scroll.
+    This is text so the page can scroll. This is text so the page can scroll.</p>
+    <p>This is text so the page can scroll. This is text so the page can scroll.
+    This is text so the page can scroll. This is text so the page can scroll.
+    This is text so the page can scroll. This is text so the page can scroll.
+    This is text so the page can scroll. This is text so the page can scroll.
+    This is text so the page can scroll. This is text so the page can scroll.</p>
+    <p>This is text so the page can scroll. This is text so the page can scroll.
+    This is text so the page can scroll. This is text so the page can scroll.
+    This is text so the page can scroll. This is text so the page can scroll.
+    This is text so the page can scroll. This is text so the page can scroll.
+    This is text so the page can scroll. This is text so the page can scroll.</p>
+    <p>This is text so the page can scroll. This is text so the page can scroll.
+    This is text so the page can scroll. This is text so the page can scroll.
+    This is text so the page can scroll. This is text so the page can scroll.
+    This is text so the page can scroll. This is text so the page can scroll.
+    This is text so the page can scroll. This is text so the page can scroll.</p>
+    <p>This is text so the page can scroll. This is text so the page can scroll.
+    This is text so the page can scroll. This is text so the page can scroll.
+    This is text so the page can scroll. This is text so the page can scroll.
+    This is text so the page can scroll. This is text so the page can scroll.
+    This is text so the page can scroll. This is text so the page can scroll.</p>
+    <p>This is text so the page can scroll. This is text so the page can scroll.
+    This is text so the page can scroll. This is text so the page can scroll.
+    This is text so the page can scroll. This is text so the page can scroll.
+    This is text so the page can scroll. This is text so the page can scroll.
+    This is text so the page can scroll. This is text so the page can scroll.</p>
+    </div>
+    <script>
+    window.onscroll = function() {myFunction()};
+
+    var header = document.getElementById("myheader");
+    var sticky = header.offsetTop;
+
+    function myFunction() {
+      if (window.pageYOffset > sticky) {
+        header.classList.add("sticky");
+      } else {
+        header.classList.remove("sticky");
+      }
+    }
+    </script>
   </body>
 </html>
